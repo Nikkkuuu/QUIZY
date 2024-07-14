@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient( 45deg, #fff,#0e2597);
+    cursor: crosshair;
+}
+h1:nth-child(1){
+    font-size: 40px;
+}
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    background: #00000057;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px); 
+    border: 1px solid rgb(255, 255, 255);
+}
+
+h1{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #dadada;
+}
+
+#timer{
+    position: absolute;
+}
+#score{
+    position: absolute;
+    right: 20px;
+}
+#question{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#options {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+#options button {
+    border: 1px solid #fff;
+    margin: 5px 0;
+    padding: 10px;
+    background-color: #363636;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all ease 0.5s;
+}
+
+#options button:hover {
+    background-color: #232323;
+}
+
+#end-container {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    background-color: #363636;
+    color: #fff;
+    margin-top: 20px;
+    transition: all ease 0.5s;
+}
+
+button:hover {
+    background-color: #232323;
+}
